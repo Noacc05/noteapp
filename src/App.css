@@ -46,6 +46,12 @@
   justify-content: center;
 }
 
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Adds spacing between the input, textarea, and button */
+}
+
 a {
   font-weight: 500;
   color: #646cff;
